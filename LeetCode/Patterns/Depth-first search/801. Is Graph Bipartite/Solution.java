@@ -1,36 +1,39 @@
 class Solution {
-    static boolean ans ;
-    public void bfs(int i ,int[][] adj,int[] vis){
+
+    public boolean check(int start, int n, int[] color, int[][] graph) {
         Queue<Integer> q = new LinkedList<>();
-        vis[i] = 0; //1-> red, 0->blue;
-        q.add(i);
-        while(q.size()>0){
+        q.add(start);
+        color[start] = 0;
+
+        while (!q.isEmpty()) {
             int front = q.remove();
-            int color = vis[front];
-            for(int ele: adj[front]){
-                if(vis[ele] == vis[front]) {
-                    ans = false; 
-                    return ;
-                }
-                if(vis[ele] == -1){
-                    vis[ele] = 1-color;
-                    q.add(ele);
+            int currColor = color[front];
+
+            for (int it : graph[front]) {
+                if (color[it] == color[front]) {
+                    return false;
+                } else if (color[it] == -1) {
+                    color[it] = 1 - currColor;
+                    q.add(it);
                 }
             }
         }
 
+        return true;
     }
-    public boolean isBipartite(int[][] adj) {
-        ans = true;
-        int n = adj.length;
-        int[] vis = new int[n];
-        Arrays.fill(vis,-1);
-        for(int i =0;i<n;i++)
-        {
-            if(ans == false)return false;
-            if(vis[i] == -1) bfs(i,adj,vis);
+
+    public boolean isBipartite(int[][] graph) {
+        int n = graph.length;
+        int[] color = new int[n];
+        Arrays.fill(color, -1);
+
+        for (int i = 0; i < n; i++) {
+            if (color[i] == -1) {          // Start BFS only if unvisited
+                if (!check(i, n, color, graph)) {
+                    return false;
+                }
+            }
         }
-         return ans ;
+        return true;
     }
-   
 }
