@@ -39,12 +39,12 @@ class Solution {
         int count = 0;
         for(int i =0;i<n;i++){
             for(int j= 0;j<m;j++){
-                if(i == 0 || j ==0 || i < n-1 || j < m-1 ){
+                
                     if(board[i][j] == 'X' &&  vis[i][j] == 0){
                         count ++;
                         bfs(i , j , board , vis, count);
                     }
-                }
+                
             }
         }
 
