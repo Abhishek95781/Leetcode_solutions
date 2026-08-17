@@ -1,6 +1,6 @@
 # 📝 200. Number of Islands (LeetCode)
 
-🔗 [Problem Link](https://leetcode.com/problems/number-of-islands/?envType=problem-list-v2&envId=breadth-first-search)
+🔗 [Problem Link](https://leetcode.com/problems/number-of-islands/)
 
 ![Difficulty](https://img.shields.io/badge/Difficulty-Medium-orange) ![Language](https://img.shields.io/badge/Language-Java-blue)
 
@@ -8,8 +8,8 @@
 Array, Depth-First Search, Breadth-First Search, Union-Find, Matrix
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 6 ms
+- **Memory:** 51.3 MB
 
 ---
 
