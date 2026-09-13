@@ -2,16 +2,12 @@ class Solution {
     public String[] findRelativeRanks(int[] score) {
         int n = score.length;
         String[] ans = new String[n];
-
-
         PriorityQueue<Integer> pq = new PriorityQueue<>(
             (a,b) -> score[b] - score[a]
         );
-
         for(int i =0;i<n;i++){
             pq.add(i);
         }
-
         for(int i =1;i<=n;i++){
             int index = pq.poll();
 
@@ -27,10 +23,7 @@ class Solution {
             else{
                 ans[index] = String.valueOf(i);
             }
-
-
         }
-
         return ans;
     }
 }
