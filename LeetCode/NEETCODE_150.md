@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 5 / 150 (3.3%)
+- **Completed:** 6 / 150 (4.0%)
 
 ---
 
@@ -121,7 +121,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [ ] Redundant Connection
 - [ ] Number of Connected Components in an Undirected Graph
 - [ ] Graph Valid Tree
-- [ ] Word Ladder
+- [x] [Word Ladder](./Java/Hard/127. Word Ladder/)
 
 ### 📂 1-D Dynamic Programming
 - [ ] Climbing Stairs
