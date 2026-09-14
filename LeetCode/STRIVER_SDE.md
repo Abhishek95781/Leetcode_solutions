@@ -3,7 +3,7 @@
 Track your progress on the Striver's SDE Sheet top interview problems.
 
 ## Progress
-- **Completed:** 2 / 76 (2.6%)
+- **Completed:** 3 / 76 (3.9%)
 
 ---
 
@@ -91,7 +91,7 @@ Track your progress on the Striver's SDE Sheet top interview problems.
 - [ ] Serialize and Deserialize Binary Tree
 
 ### 📂 Dynamic Programming & Graphs
-- [ ] Clone Graph
+- [x] [Clone Graph](./Java/Medium/133. Clone Graph/)
 - [x] [Course Schedule](./Java/Medium/207. Course Schedule/)
 - [ ] Number of Islands
 - [ ] Longest Increasing Subsequence
