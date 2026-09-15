@@ -8,8 +8,8 @@
 Hash Table, String, Divide and Conquer, Sliding Window
 
 ### 🚀 Performance
-- **Runtime:** N/A
-- **Memory:** N/A
+- **Runtime:** 0 ms
+- **Memory:** 42.7 MB
 
 ---
 
