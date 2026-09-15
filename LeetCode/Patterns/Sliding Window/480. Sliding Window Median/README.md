@@ -8,8 +8,8 @@
 Array, Hash Table, Sliding Window, Heap (Priority Queue), Treap
 
 ### 🚀 Performance
-- **Runtime:** 373 ms
-- **Memory:** 66.7 MB
+- **Runtime:** 137 ms
+- **Memory:** 66.5 MB
 
 ---
 
