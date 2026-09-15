@@ -3,7 +3,7 @@
 Track your progress on the NeetCode 150 roadmap practice problems.
 
 ## Progress
-- **Completed:** 7 / 150 (4.7%)
+- **Completed:** 8 / 150 (5.3%)
 
 ---
 
@@ -124,7 +124,7 @@ Track your progress on the NeetCode 150 roadmap practice problems.
 - [x] [Word Ladder](./Java/Hard/127. Word Ladder/)
 
 ### 📂 1-D Dynamic Programming
-- [ ] Climbing Stairs
+- [x] [Climbing Stairs](./Java/Easy/70. Climbing Stairs/)
 - [ ] Min Cost Climbing Stairs
 - [x] [House Robber](./Java/Medium/198. House Robber/)
 - [ ] House Robber II
