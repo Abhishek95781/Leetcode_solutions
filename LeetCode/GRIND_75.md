@@ -3,7 +3,7 @@
 Track your progress on the Grind 75 coding interview preparation list.
 
 ## Progress
-- **Completed:** 6 / 75 (8.0%)
+- **Completed:** 7 / 75 (9.3%)
 
 ---
 
@@ -92,7 +92,7 @@ Track your progress on the Grind 75 coding interview preparation list.
 - [ ] Binary Tree Level Order Traversal
 - [ ] Serialize and Deserialize Binary Tree
 - [ ] Subtree of Another Tree
-- [ ] Construct Binary Tree from Preorder and Inorder Traversal
+- [x] [Construct Binary Tree from Preorder and Inorder Traversal](./Java/Medium/105. Construct Binary Tree from Preorder and Inorder Traversal/)
 - [ ] Validate Binary Search Tree
 - [ ] Kth Smallest Element in a BST
 - [ ] Lowest Common Ancestor of a Binary Search Tree
